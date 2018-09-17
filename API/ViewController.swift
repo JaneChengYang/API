@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    func strings()->String{
+        return "OK"
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         print("YES!")
+        strings()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
